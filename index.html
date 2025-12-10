@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Athenkosi Pepengweni Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        /* Smooth fade-up animations */
+        .fade-up { opacity: 0; transform: translateY(20px); transition: 0.8s ease; }
+        .fade-up.visible { opacity: 1; transform: translateY(0); }
+
+        /* Dark/light mode toggle */
+        body.light-mode { background: #fff; color: #000; }
+        body.dark-mode { background: #0d1117; color: #e6e6e6; }
+
+        #themeToggle { cursor: pointer; font-size: 20px; margin-left: 15px; }
+
+        .cert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; }
+        .cert-item { background: #1f2937; color: #fff; padding: 15px; border-radius: 10px; }
+        .button-small { padding: 5px 10px; font-size: 0.9rem; }
+    </style>
+</head>
+<body class="is-preload dark-mode" id="body">
+
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+
+        <!-- Intro -->
+        <div id="intro" class="fade-up">
+            <h1>Athenkosi  <br> Cloud & DevSecOps Engineer</h1>
+            <p>A modern, fully responsive portfolio showcasing the expertise of Cloud Engineer focused 
+				<br>on cloud security, resilient infrastructure architecture, and scalable deployment solutions.
+				<br>by <a href="https://www.linkedin.com/in/athenkosi-pepengweni-036443183">Athenkosi Pepengweni</a>
+            
+            </p>
+            <a href="https://drive.google.com/file/d/1KgfW8du6SYpSjSIH4c4RBxONAy_EA8tv/view?usp=sharing" class="button icon solid fa-file-download" download>Download CV</a>
+            <ul class="actions">
+                <li><a href="#main" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul>
+        </div>
+
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">Portfolio</a>
+            <i id="themeToggle" class="fa-solid fa-moon"></i>
+        </header>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li class="active"><a href="#aws">AWS Bootcamp</a></li>
+                <li><a href="#cloud-engineer">Cloud Engineer</a></li>
+                <li><a href="#cloud-security">Cloud Security</a></li>
+                <li><a href="#devops">DevOps</a></li>
+                <li><a href="#certs">Certificates</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://github.com/atteks-za/athenkosi-portfolio/tree/main" class="icon brands fa-github"></a></li>
+                <li><a href="https://www.linkedin.com/in/athenkosi-pepengweni-036443183/" class="icon brands fa-linkedin"></a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- AWS BOOTCAMP SECTION -->
+            <section class="post fade-up" id="aws">
+                <header class="major">
+                    <h2><i class="fa-brands fa-aws"></i> AWS Bootcamp</h2>
+                    <p>Hands-on AWS learning with real security + automation projects.</p>
+                </header>
+                <h3>Projects</h3>
+                <ul>
+                    <li><a href="https://github.com/atteks-za/athenkosi-portfolio/blob/AWS-Bootcamp/Identity%20&%20Access%20Management%20with%20AWS%20Identity%20Center/readme.md" class="button-small">Identity & Access Management with AWS Identity Center</a></li>
+                    <li><a href="https://github.com/atteks-za/athenkosi-portfolio/blob/AWS-Bootcamp/Deploying%20a%20Secure%20Windows%20EC2%20Instance/readme.md" class="button-small">Deploying a Secure Windows EC2 Instance</a></li>
+                    <li><a href="https://github.com/atteks-za/athenkosi-portfolio/tree/AWS-Bootcamp/Multi-VPC%20Networking%20&%20Peering%20Configuration" class="button-small">Multi-VPC Networking & Peering Configuration</a></li>
+                    <li><a href="https://github.com/atteks-za/athenkosi-portfolio/blob/AWS-Bootcamp/Containerized%20Grafana%20Dashboard%20on%20ECS%20Fargate/readme.md" class="button-small">Containerized Grafana Dashboard on ECS Fargate</a></li>
+                    <li><a href="https://github.com/atteks-za/athenkosi-portfolio/blob/AWS-Bootcamp/ECS-Hosted%20Metabase%20Connected%20to%20Amazon%20RDS/readme.md" class="button-small">ECS-Hosted Metabase Connected to Amazon RDS</a></li>
+                    <li><a href="https://github.com/atteks-za/athenkosi-portfolio/blob/AWS-Bootcamp/CloudWatch%20Monitoring%20Dashboard%20for%20ECS%20Application/readme.md" class="button-small">CloudWatch Monitoring Dashboard for ECS Application</a></li>
+                    <li><a href="https://github.com/atteks-za/athenkosi-portfolio/blob/AWS-Bootcamp/Static%20Portfolio%20Website%20with%20S3%20&%20CloudFront/readme.md" class="button-small">Static Portfolio Website with S3 & CloudFront</a></li>
+                    <li><a href="https://github.com/atteks-za/athenkosi-portfolio/blob/AWS-Bootcamp/Secure%20Custom%20Domain%20Hosting%20with%20Route%2053,%20CloudFront%20&%20ACM/readme.md" class="button-small">Secure Custom Domain Hosting with Route 53, CloudFront & ACM</a></li>
+                    <li><a href="https://github.com/atteks-za/athenkosi-portfolio/blob/AWS-Bootcamp/Serverless%20Automation%20with%20S3%20Event%20Triggers%20&%20Lambda/readme.md" class="button-small">Serverless Automation with S3 Event Triggers & Lambda</a></li>
+                </ul>
+            </section>
+
+            <!-- CLOUD ENGINEER SECTION -->
+            <section class="post fade-up" id="cloud-engineer">
+                <header class="major">
+                    <h2><i class="fa-solid fa-cloud"></i> Cloud Engineer</h2>
+                    <p>Designing scalable cloud infrastructure on AWS & Azure.</p>
+                </header>
+                <h3>Comming Soon</h3>
+                <ul>
+                    <li><a href="#" class="button-small"></a></li>
+                    <li><a href="#" class="button-small"></a></li>
+                    <li><a href="#" class="button-small"></a></li>
+                </ul>
+            </section>
+
+            <!-- CLOUD SECURITY SECTION -->
+            <section class="post fade-up" id="cloud-security">
+                <header class="major">
+                    <h2><i class="fa-solid fa-shield-halved"></i> Cloud Security Engineer</h2>
+                    <p>Identity, encryption, monitoring, threat detection, and incident readiness.</p>
+                </header>
+                <h3>Comming Soon</h3>
+                <ul>
+                    <li><a href="#" class="button-small"></a></li>
+                    <li><a href="#" class="button-small"></a></li>
+                    <li><a href="#" class="button-small"></a></li>
+                </ul>
+            </section>
+
+            <!-- DEVOPS SECTION -->
+            <section class="post fade-up" id="devops">
+                <header class="major">
+                    <h2><i class="fa-solid fa-gears"></i> DevOps</h2>
+                    <p>Automation, CI/CD, containers, IaC & Observability.</p>
+                </header>
+                <h3>Comming Soon</h3>
+                <ul>
+                    <li><a href="#" class="button-small"></a></li>
+                    <li><a href="#" class="button-small"></a></li>
+                    <li><a href="#" class="button-small"></a></li>
+                </ul>
+            </section>
+
+            <!-- CERTIFICATES SECTION -->
+            <section class="post fade-up" id="certs">
+                <header class="major">
+                    <h2><i class="fa-solid fa-certificate"></i> Certificates</h2>
+                    <p>Cloud • Security • DevOps</p>
+                </header>
+             <ul>
+                    <li><a href="https://learn.cloudsecnetwork.com/cert/view/CSN-V4YBAICX" class="button-small">AWS Cloud Bootcamp</a></li>
+                    <li><a href="https://learn.microsoft.com/api/credentials/share/en-us/PepengweniAthenkosi-6414/C62CA2E24568FA61?sharingId=B604582EF6741134" class="button-small">Microsoft Certified: Security Operations Analyst Associate</a></li>
+                    <li><a href="https://www.credly.com/badges/6c3c45fa-1cdb-44a6-82ad-0595b4769c87/linked_in_profile" class="button-small">CompTIA Security+</a></li>
+                    <li><a href="https://www.credly.com/badges/cbdffdff-107f-45bf-9859-950bfe8cfa06/linked_in_profile" class="button-small">Microsoft Certified: Azure Fundamentals</a></li>
+                </ul>
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <section class="split contact">
+                <section class="alt">
+                    <h3>Location</h3>
+                    <p>South Africa</p>
+                </section>
+                <section>
+                    <h3>Email</h3>
+                    <p><a href="mailto:athenkosi.peps@gmail.com">athenkosi.peps@gmail.com</a></p>
+                </section>
+                <section>
+                    <h3>Social</h3>
+                    <ul class="icons alt">
+                        <li><a href="https://github.com/atteks-za/athenkosi-portfolio/tree/main" class="icon brands alt fa-github"></a></li>
+                        <li><a href="https://www.linkedin.com/in/athenkosi-pepengweni-036443183/" class="icon brands alt fa-linkedin"></a></li>
+                    </ul>
+                </section>
+            </section>
+        </footer>
+
+        <div id="copyright">
+            <ul><li>&copy;Athenkosi Pepengweni</li><li>Design: HTML5 UP</li></ul>
+			<div id="currentYear" style="text-align:center; margin-top:5px; font-weight:bold;"></div>
+        </div>
+		
+
+    </div>
+	
+
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+	<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        const yearSpan = document.getElementById('currentYear');
+        if (yearSpan) {
+            yearSpan.textContent = new Date().getFullYear();
+        }
+    });
+    </script>
+
+    <script>
+        // Theme Toggle
+        const body = document.getElementById('body');
+        const toggle = document.getElementById('themeToggle');
+        toggle.onclick = () => {
+            body.classList.toggle('light-mode');
+            body.classList.toggle('dark-mode');
+            toggle.classList.toggle('fa-sun');
+            toggle.classList.toggle('fa-moon');
+        };
+
+        // Fade-up animations on scroll
+        const elements = document.querySelectorAll('.fade-up');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        });
+        elements.forEach(el => observer.observe(el));
+    </script>
+
+</body>
+</html>
